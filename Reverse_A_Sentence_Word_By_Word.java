@@ -19,7 +19,7 @@ class Reverse_A_Sentence_Word_By_Word
 		{
 			result=result+arr[i]+" "; // " " it is adding the space also with string
 		}
-		System.out.println(result);
+		System.out.println(result); //result
 
 	}
 }
