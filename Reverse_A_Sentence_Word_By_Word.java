@@ -11,9 +11,9 @@ class Reverse_A_Sentence_Word_By_Word
 		String 	result="";
 
 		String[] arr=str.split("\\s");
-		// split method return array of string
-		// we can use space also on the place of "\\s" for ex   String[] arr=str.split(" ");
-		// we are reveresing the string using space
+		// split method return an array of string
+		// we can use space also instead of "\\s" for ex   String[] arr=str.split(" ");
+		//We are reversing the string using space
 
 		for(int i=arr.length-1;i>=0;i--)
 		{
